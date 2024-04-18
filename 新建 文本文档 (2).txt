@@ -128,3 +128,15 @@ skin spots,acnes,skin blemishes,
 bad anatomy,bad anatomy,gross proportions,long neck,cross-eyed,malformed limbs,blurred hands,fused fingers,poorly drawn face,poorly drawn hands,
 (mutated hands and fingers:1.3),(mutated legs and foots:1.3),bad body,bad limbs,bad arms,bad hands,bad fingers,bad leg,bad feet,missing limbs,missing arms,missing hands,missing fingers,missing legs,missing footextra limbs,extra arms,extra fingers,extra leg,extra foot,bad hand,(bad proportions:1.5),
 Steps: 28, Sampler: DPM++ 2S a Karras, CFG scale: 7.5, Seed: 3231113443, Size: 600x400, Model hash: fc2511737a, Model: chilloutmix_NiPrunedFp32Fix, Denoising strength: 0.4, ENSD: 31337, ADetailer model: hand_yolov8n.pt, ADetailer confidence: 0.3, ADetailer dilate erode: 4, ADetailer mask blur: 4, ADetailer denoising strength: 0.4, ADetailer inpaint only masked: True, ADetailer inpaint padding: 32, ADetailer model 2nd: mediapipe_face_mesh, ADetailer confidence 2nd: 0.3, ADetailer dilate erode 2nd: 4, ADetailer mask blur 2nd: 4, ADetailer denoising strength 2nd: 0.4, ADetailer inpaint only masked 2nd: True, ADetailer inpaint padding 2nd: 32, ADetailer version: 24.4.0, Hires upscale: 1.2, Hires steps: 30, Hires upscaler: Latent (bicubic antialiased), Lora hashes: "mix4: 4768d15b1b67, seeThroughSilhouette_v10: b0b6df1ebf21", Downcast alphas_cumprod: True, Version: v1.8.0
+
+------------------------------------------------------------
+泳装
+
+1 gir1,absurdres,<lora:极致肤感提升皮肤纹理质感v001:1.2>,full_shot,mature_female,fair_skin,perfect face,wet_swimsuit,hair_bow,short hair,streaked hair,hair in takes,lipgloss,sun,exquisite pure white cotton mask,lying_on_water,looking_up,from_outside,bathing,fully naked,
+Negative prompt: lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,EasyNegative,(nsfw:1.5),(worst quality, low quality:1.4),signature,no anime girl,human,no anime character,sketch,duplicate,ugly,huge eyes,text,logo,monochrome,worst face,(bad and mutated hands:1.3),(worst quality:2),(low quality:2),(blurry:2),horror,geometry,bad_prompt,(bad hands),(missing fingers),multiple limbs,bad anatomy,(interlocked fingers:1.2),Ugly Fingers,(extra digit and hands and fingers and legs and arms:1.4),(deformed fingers:1.2),(long fingers:1.2),(bad-artist-anime),bad-artist,bad hand,extra legs,
+Steps: 100, Sampler: Euler a, Schedule type: Automatic, CFG scale: 8, Seed: 2399913989, Size: 640x960, Model hash: fc2511737a, Model: chilloutmix_NiPrunedFp32Fix, Clip skip: 2, Lora hashes: "极致肤感提升皮肤纹理质感v001: 649dd6f7f9fd", Version: v1.9.0
+
+
+
+
+
